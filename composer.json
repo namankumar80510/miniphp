@@ -1,0 +1,30 @@
+{
+    "name": "dikki/miniphp",
+    "description": "A lightweight PHP framework for building web applications quickly and efficiently.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Naman Kumar",
+            "email": "namankumar80510@gmail.com"
+        }
+    ],
+    "homepage": "https://github.com/namankumar80510/miniphp",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Functions.php"
+        ]
+    },
+    "require": {
+        "dikki/dotenv": "^1.0",
+        "dikki/markdown": "^1.0",
+        "kinde-oss/kinde-auth-php": "^1.2"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
